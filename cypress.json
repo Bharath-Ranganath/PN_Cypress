@@ -1,0 +1,16 @@
+{
+    "chromeWebSecurity" :false,
+    "video" :false,
+    "videoUploadOnPasses":false,
+    "reporter": "mochawesome",
+    "reporterOptions": {
+      "reportDir": "cypress/reports",
+      "reportFilename": "report",
+      "overwrite": false,
+      "html": true,
+      "json": true,
+      "timestamp" : "mmddyyyy_HHMMss"
+      
+    }
+
+}
